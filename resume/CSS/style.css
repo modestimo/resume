@@ -1,0 +1,162 @@
+*{
+  padding: 0 10px;
+}
+ul, li, ol{
+  list-style: none;
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+  color:inherit;
+}
+body{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243D
+}
+
+.container{
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+
+.header{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 27px 0 140px;
+  line-height: 30px;
+  
+
+}
+.nav{}
+.menu{
+  display: flex;
+  justify-content: end;
+}
+.menu-list{
+  margin-left: 33px;
+}
+.menu-list:last-child{
+  margin-right: 60px;
+}
+
+/* main */
+/* section headline */
+.headline-box{
+  display: flex;
+  justify-content: space-between;
+margin-bottom: 71px;
+}
+.headline-inner{}
+h1{
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 38px;
+}
+.headline-btn{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* margin-bottom: 71px; */
+  color: #ffffff;
+  background-color: #ff6464;
+  padding: 20px 9px 21px 17px;
+}
+
+/*section recent */
+.recent{
+  background: #edf7fa;
+  height: 396px;
+}
+.recent-inner{
+  display: inline-block;
+}
+.recent h4{
+  display: inline;
+  font-size: 22px;
+  line-height: 60px;
+  color:#21243D;
+}
+
+.recent-link{
+  color: #00A8CC;
+  font-size: 16;
+  line-height: 24px;
+
+}
+
+.recent-posts{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #fff; */
+
+}
+.recent-posts h3{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+
+
+}
+.recent-posts span{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+
+}
+.recent-posts p{
+  font-style: 16px;
+  line-height: 24px;
+}
+.post-figma,
+.post-scratch{
+  background-color: #ffffff;
+  
+  
+}
+.post-scratch{
+  margin-right: 10px;
+
+}
+.post-figma{
+  margin-left: 10px;
+}
+
+/* section featured-menu */
+.featured {
+}
+.container {
+}
+.featured-inner {
+}
+.featured-menu {
+}
+.featured-item {
+}
+.title {
+}
+.title-date {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #142850;
+  border-radius: 16px;
+
+}
+
+.title-application {
+  font-size: 20px;
+  line-height: 30px;
+  color: #8695a4;
+}
